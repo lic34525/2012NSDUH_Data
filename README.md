@@ -17,13 +17,11 @@ About the 2012 NSDUH
 About the 'NSDUH_final.csv' file
 ====================================================
 
-NOTE: Based on [the terms of use, redistribution of ICPSR data](https://www.icpsr.umich.edu/icpsrweb/content/datamanagement/policies/redistribute.html), the 'NSDUH_final.csv' file is currently deleted from this repository.
-----------
-
+- NOTE: Based on [the terms of use, redistribution of ICPSR data](https://www.icpsr.umich.edu/icpsrweb/content/datamanagement/policies/redistribute.html), the 'NSDUH_final.csv' file is currently deleted from this repository.
 - This modified dataset includes 37869 obs. of  39 variables
 - If you are an R user, you may use the code: read.csv("NSDUH_final.csv", header = T, sep = ",", na.strings=c("NA"))
 
-1. Covariates (moderators)
+* 1. Covariates (moderators)
 -------
 - age, gender, marital status, race
 
