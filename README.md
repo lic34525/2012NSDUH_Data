@@ -21,15 +21,14 @@ About the 'NSDUH_final.csv' file
 - This modified dataset includes 37869 obs. of  39 variables
 - If you are an R user, you may use the code: read.csv("NSDUH_final.csv", header = T, sep = ",", na.strings=c("NA"))
 
-1. Covariates (moderators)
+1.Covariates (moderators)
 -------
-
 - age, gender, marital status, race
 
-2. Dependent variables
+2.Dependent variables
 -------
-
 - (1) Nicotine (Cigarette) Dependence (See the codebook pp.826-):
+-------
  - NDSSANSP (continuous): ave. score over 17 questions of Nicotine Dependence Syndrome Scale (NDSS)
  - NDSSDNSP (binary): nicotine dependent (=1) or not; NDSSANSP in binary format; the NDSS score was less than 2.75 or missing, then the respondent was determined to be non-dependent (see p.827)
  - FTNDDNSP (binary): nicotine dependent (=1) or not; using Fagerstrom Test of Nicotine Dependence (FTND)
@@ -37,6 +36,7 @@ About the 'NSDUH_final.csv' file
  - CIGAVGM (continuous): # OF CIGARETTES SMOKED PER USER IN PAST MONTH
 
 - (2) Alcohol
+-------
  - DEPNDALC (binary): alcohol dependent (=1) or not in the past year
  - ABUSEALC (binary): alcohol abuse (=1) or not in the past year
  - ABODALC (binary): alcohol abuse (ABUSEALC=1) OR dependence (DEPNDALC=1) - PAST YEAR
@@ -44,6 +44,7 @@ About the 'NSDUH_final.csv' file
  - TOTDRINK (continuous): TOTAL # OF DAYS USED ALCOHOL IN PAST 12 MOS
 
 - (3) Marijuana
+-------
  - DEPNDMRJ (binary): MARIJUANA DEPENDENCE IN THE PAST YEAR
  - ABODMRJ (binary): MARIJUANA ABUSE OR DEPENDENCE - PAST YEAR; “No/Unknown (ABUSEMRJ=0 and DEPNDMRJ=0)” “Yes (ABUSEMRJ=1 or DEPNDMRJ=1)”
  - MJYRAVE (continuous): # DAYS USED MARIJUANA/HASHISH PAST 12 MONTHS (On how many days in the past 12 months did you use marijuana or hashish?); more frequencies than MJMONAVE
