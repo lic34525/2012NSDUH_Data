@@ -7,9 +7,10 @@ c("QUESTID2"    # ID info
 , "ndssansp", "ndssdnsp", "ftnddnsp", "dnicnsp", "cigavgm"    # Nicotine Dep
 , "depndalc", "abusealc", "abodalc", "alcyrtot"   # Alcohol
 , "depndmrj", "abodmrj", "mrdaypyr", "mrdaypmo", "mjyrtot"    # Marijuana
-
-# continue here as much as you want#
-
+, "ircigage", "iralcage", "irmjage"  #First Use History
+, "WSPDSC2", "WHODASC3", "SMIPP_U", "AMDEY2_U"  #Mental Illness
+, "nonabovev", "asthmaevr", "copdever", "hivaidsev", "diabetevr", "hrtcondev"  #Health Consition History
+, "IRINSUR4", "IRFAMIN3"  #SES
 ))
 
 write.csv(NSUDH2019,"NSUDH2019.csv", row.names = FALSE)
